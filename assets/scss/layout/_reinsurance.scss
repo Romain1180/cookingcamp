@@ -1,3 +1,15 @@
 @use '../abstracts/variables' as *;
 @use '../abstracts/mixin' as m;
 @use '../abstracts/placeholders';
+
+.reinsurance{
+    background-image: url(/assets/images/barbecue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+    @media screen and (max-width: 900px){
+        height: auto;
+    }
+}
