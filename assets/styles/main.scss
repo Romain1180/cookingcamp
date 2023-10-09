@@ -1,5 +1,7 @@
-*, ::before,  ::after{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+@use './abstracts/variables' as *;
+@use './abstracts/mixin' as m;
+@use './abstracts/placeholders';
+@use './base/reset';
+@use './base/base';
+@use './layout';
+@use './components/buttons';
