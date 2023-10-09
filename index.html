@@ -5,25 +5,25 @@
         <link rel="stylesheet" href="./style.css" />
         <title>CookingCamp</title>
     </head>
-    <body>
+    <body class="bg-black text-white">
         <header>
-            <nav>
-                <div class="nav-left">
+            <nav class="navbar navbar-dark bg-dark d-flex justify-content-between align-items-center">
+                <div class="nav-left d-flex align-items-center">
                     <img
                         src="./assets/images/logo_camp.svg"
                         alt="Cooking Camp"
                     />
-                    <p>cooking' Camp</p>
+                    <p class="text-light">cooking' Camp</p>
                 </div>
-                <div class="nav-right">
+                <div class="nav-right d-flex">
                     <div>
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Infos</a></li>
-                            <li><a href="">Dates</a></li>
+                        <ul class="d-flex align-items-center m-0">
+                            <li><a class="nav-link text-light active" aria-current="page" href="#">Home</a></li>
+                            <li><a class="nav-link text-light" href="#">Infos</a></li>
+                            <li><a class="nav-link text-light" href="#">Dates</a></li>
                         </ul>
                     </div>
-                    <div class="social">
+                    <div class="social d-flex">
                         <img
                             src="./assets/images/facebook.svg"
                             alt="Facebook"
@@ -36,10 +36,13 @@
                     </div>
                 </div>
             </nav>
-            <section class="home">
-                <h1>Culinary Sleepaway<br />Camp for Grown-Ups!</h1>
-                <p>Summer 2035 | Lassen State Park</p>
-                <button>Sign Me Up</button>
+            <section class="home d-flex justify-content-center align-items-center">
+                <img src="./assets/images/hero-wrapper.png" class="position-absolute w-100 z-n1" alt="Fond">
+                <div class="home__info">
+                    <h1>Culinary Sleepaway<br />Camp for Grown-Ups!</h1>
+                    <p class="fs-3 mt-5 mb-5">Summer 2035 | Lassen State Park</p>
+                    <button class="btn-cookingcamp cookingcamp-primary">Sign Me Up</button>
+                </div>
             </section>
         </header>
 
