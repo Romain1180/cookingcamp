@@ -3,5 +3,9 @@
 @use '../abstracts/placeholders';
 
 .home {
+    background: url('./assets/images/hero-wrapper.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 135vh;
 }

@@ -1,0 +1,8 @@
+@import '../bootstrap/scss/functions';
+@import '../bootstrap/scss/variables';
+
+$primary: #FF34FF;
+$theme-colors: (
+    'primary': $primary
+);
+$btn-border-radius: 0;
