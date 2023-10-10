@@ -1,3 +1,8 @@
 @use '../abstracts/variables' as *;
 @use '../abstracts/mixin' as m;
 @use '../abstracts/placeholders';
+
+
+.carousel-item{
+    background-color: #0B181E;
+}

@@ -1,3 +1,13 @@
 @use '../abstracts/variables' as *;
 @use '../abstracts/mixin' as m;
 @use '../abstracts/placeholders';
+
+.images img{
+    border: 1px solid map-get($map: $colors, $key: dark);
+    transition: .2s ease-in-out;
+
+    &:hover{
+        border: 1px solid map-get($map: $colors, $key: light );
+    }
+}
+
