@@ -35,6 +35,41 @@ h4, .h4 {
   font-family: "playfair";
 }
 
+@media screen and (max-width: 900px) {
+  nav .nav-left {
+    justify-content: center;
+    width: 100%;
+  }
+  nav .nav-right {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  nav .logo {
+    width: 10vw;
+  }
+  nav .nav-right {
+    display: flex;
+    flex-direction: column;
+  }
+  .home__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home__info h1, .home__info .h1 {
+    font-size: 3rem !important;
+    text-align: center;
+  }
+  .history {
+    padding-top: 15vh;
+  }
+  .reinsurance {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+  }
+}
 *, ::before, ::after {
   margin: 0%;
   padding: 0%;
