@@ -87,6 +87,16 @@ h4, .h4 {
   background-color: #0B181E;
 }
 
+.carousel-indicators [data-bs-target] {
+  border-radius: 100px !important;
+  border: 1px solid white !important;
+  background: transparent !important;
+}
+
+.carousel-indicators .active {
+  background-color: white !important;
+}
+
 .reinsurance {
   background-image: url(/assets/images/barbecue.png);
   background-repeat: no-repeat;
