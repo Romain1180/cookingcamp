@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'raleway';
-    src: url('../../fonts/Raleway-VariableFont_wght.ttf');
+    src: url('./assets/fonts/Raleway-VariableFont_wght.ttf');
 }
 
 @font-face {
@@ -22,4 +22,8 @@
 
 h1 {
     font-size: 6rem !important;
+}
+
+h2 {
+    font-size: 3rem !important;
 }

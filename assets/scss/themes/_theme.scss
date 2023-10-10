@@ -1,8 +1,12 @@
 @import '../bootstrap/scss/functions';
 @import '../bootstrap/scss/variables';
 
-$primary: #FF34FF;
+$primary: #0B181E;
+$secondary: #F9B860;
 $theme-colors: (
-    'primary': $primary
+    'primary': $primary,
+    'secondary': $secondary
 );
+
 $btn-border-radius: 0;
+$input-border-radius: 0;
