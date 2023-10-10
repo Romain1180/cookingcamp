@@ -39,3 +39,29 @@ h4 {
     font-size: 3rem !important;
     font-family: 'playfair';
 }
+
+@media screen and (max-width: 900px) {
+    // h1 {
+    //     font-size: 3rem !important;
+    //     text-align: center;
+    // }
+
+    // h4 {
+    //     text-align: center;
+    // }
+
+    // button {
+        
+    // }
+
+    .home__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 3rem !important;
+            text-align: center;
+        }
+    }
+}
