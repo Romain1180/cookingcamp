@@ -59,6 +59,18 @@ h4, .h4 {
   height: 100%;
 }
 
+@media (max-width: 480px) {
+  .history {
+    flex-direction: column;
+  }
+  .history .history-info__container {
+    width: 95% !important;
+  }
+  .history img {
+    margin-top: 6vh;
+    width: 100% !important;
+  }
+}
 .btn-cookingcamp {
   border: none;
   padding-inline: 2.2vh;
