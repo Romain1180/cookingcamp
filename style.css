@@ -52,6 +52,18 @@ h4, .h4 {
   height: 135vh;
 }
 
+.contact {
+  background: #0B181E;
+}
+
+.images img {
+  border: 1px solid #000000;
+  transition: 0.2s ease-in-out;
+}
+.images img:hover {
+  border: 1px solid #FFFFFF;
+}
+
 .history {
   background-color: #0B181E;
 }
@@ -71,6 +83,31 @@ h4, .h4 {
     width: 100% !important;
   }
 }
+.carousel-item {
+  background-color: #0B181E;
+}
+
+.reinsurance {
+  background-image: url(/assets/images/barbecue.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+@media screen and (max-width: 900px) {
+  .reinsurance {
+    height: auto;
+  }
+}
+
+.sign-up {
+  background-image: url(/assets/images/call-to-action.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+
 .btn-cookingcamp {
   border: none;
   padding-inline: 2.2vh;
@@ -5770,7 +5807,7 @@ textarea.form-control-lg {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color: #fff !important;
   text-align: center;
   background: none;
   border: 0;
@@ -5786,7 +5823,7 @@ textarea.form-control-lg {
 .carousel-control-prev:hover, .carousel-control-prev:focus,
 .carousel-control-next:hover,
 .carousel-control-next:focus {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   outline: 0;
   opacity: 0.9;
@@ -5842,8 +5879,8 @@ textarea.form-control-lg {
 .carousel-indicators [data-bs-target] {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 15px !important;
+  height: 15px !important;
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
