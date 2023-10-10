@@ -170,31 +170,37 @@
                       </div>
                 </div>
             </section>
-            <section class="sign-up">
-                <h2>Readt for Camp?</h2>
-                <button>Sign Me Up</button>
-            </section>
-            <section class="contact">
-                <div>
-                    <h2>Contact</h2>
-                    <p>Questions? Call us at 123-456-7890 or leave us a message:</p>
-                    <p>500 Terry Francine Street San Francisco, CA 94158</p>
+            <section class="sign-up d-flex flex-column justify-content-center align-items-center">
+                <div class="text-center">
+                    <h2 class="mb-5">Ready for Camp?</h2>
+                    <button class="btn btn-secondary">Sign Me Up</button>
                 </div>
-                <form action="">
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email">
-                    <input type="text" placeholder="Subject">
-                    <input type="textarea">
-                    <button type="submit">Submit</button>
-                </form>
+            </section>
+            <section class="contact p-5 m-5">
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="gap-5 d-flex flex-column">
+                        <div class="text-center">
+                            <h2>Contact</h2>
+                            <p>Questions? Call us at 123-456-7890 or leave us a message:</p>
+                            <p>500 Terry Francine Street San Francisco, CA 94158</p>
+                        </div>
+                        <form class="d-flex flex-column jutify-content-end align-items-end" action="">
+                            <input type="text" class="form-control col-5 mb-3" placeholder="Name">
+                            <input type="email" class="form-control mb-3" placeholder="Email">
+                            <input type="text" class="form-control mb-3" placeholder="Subject">
+                            <input type="textarea" class="form-control mb-3" placeholder="Type your message here">
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
             </section>
         </main>
-
-        <footer>
-            <div class="social-footer">
-                <img src="./assets/images/facebook.svg" alt="Facebook">
-                <img src="./assets/images/youtube.svg" alt="Youtube">
-                <img src="./assets/images/instagram.svg" alt="Instagram">
+        
+        <footer class="text-center p-3">
+            <div class="social-footer d-flex flex-row justify-content-center align-items-center mb-5">
+                <img class="p-2" src="./assets/images/facebook.svg" alt="Facebook">
+                <img class="p-2" src="./assets/images/youtube.svg" alt="Youtube">
+                <img class="p-2" src="./assets/images/instagram.svg" alt="Instagram">
             </div>
             <p>© 2035 Cookin' Camp.</p>
         </footer>

@@ -1,3 +1,11 @@
 @use '../abstracts/variables' as *;
 @use '../abstracts/mixin' as m;
 @use '../abstracts/placeholders';
+
+.sign-up {
+    background-image: url(/assets/images/call-to-action.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
