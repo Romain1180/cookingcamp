@@ -3,13 +3,17 @@
 
 $primary: #0B181E;
 $secondary: #F9B860;
+$light: #FFFFFF;
 $theme-colors: (
     'primary': $primary,
-    'secondary': $secondary
+    'secondary': $secondary,
+    'light': $light
 );
 
 $btn-border-radius: 0;
 $input-border-radius: 0;
+$btn-padding-y: 0.8vh;
+$btn-padding-x: 2.5vh;
 
 // carousel indicator btn
 
@@ -24,3 +28,15 @@ $carousel-indicator-height:          15px !important;
 // $carousel-control-border-radius:   100px !important;
 // $carousel-caption-border-radius:   100px !important;
 // $carousel-indicator-border-radius:   100px !important;
+
+$input-padding-y: 1.5rem;
+// $input-font-weight:;
+// $input-line-height:;
+$input-color: $light;
+$input-border-color: $light;
+$input-border-width: 1px;
+$input-placeholder-color: $light;
+$input-bg: $primary;
+$input-focus-bg: $primary;
+$input-focus-border-color: $light;
+$input-focus-color: $light
