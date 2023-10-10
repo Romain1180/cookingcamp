@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face {
   font-family: "playfair";
-  src: url("../../fonts/PlayfairDisplay-VariableFont_wght.ttf");
+  src: url("./assets/fonts/PlayfairDisplay-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: "playfair_italic";
-  src: url("../../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
+  src: url("./assets/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf");
 }
 @font-face {
   font-family: "raleway";
@@ -13,14 +13,26 @@
 }
 @font-face {
   font-family: "raleway_italic";
-  src: url("../../fonts/Raleway-Italic-VariableFont_wght.ttf");
+  src: url("./assets/fonts/Raleway-Italic-VariableFont_wght.ttf");
 }
 h1, .h1 {
   font-size: 6rem !important;
+  font-family: "playfair";
 }
 
 h2, .h2 {
   font-size: 3rem !important;
+  font-family: "playfair";
+}
+
+h3, .h3 {
+  font-size: 3rem !important;
+  font-family: "playfair";
+}
+
+h4, .h4 {
+  font-size: 3rem !important;
+  font-family: "playfair";
 }
 
 *, ::before, ::after {
@@ -52,8 +64,8 @@ h2, .h2 {
   padding-inline: 2.2vh;
   padding-block: 0.8vh;
   font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  opacity: 80%;
+  font-family: "raleway";
+  opacity: 70%;
 }
 
 .cookingcamp-primary {
