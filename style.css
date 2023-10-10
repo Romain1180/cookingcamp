@@ -99,6 +99,11 @@ h4, .h4 {
   border: 1px solid #FFFFFF;
 }
 
+@media screen and (max-width: 900px) {
+  .gallery h2, .gallery .h2 {
+    text-align: center;
+  }
+}
 .history {
   background-color: #0B181E;
 }
